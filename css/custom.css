@@ -1,106 +1,183 @@
-
 body {
     padding-top: 0rem;
+    position: relative;
 }
 
-.starter-template {
-    padding: 3rem 1.5rem;
+.what-we-do {
+    color: #366e7d;
+    padding-top: 50px;
+    padding-bottom: 10px;
     text-align: center;
+    margin-bottom: 0px;
+}
+
+.navbar .navbar-expand-md .navbar-dark .bg-dark .fixed-top {
+    border: 12px solid #B22222;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /* Navbar */
-.navbar {
-    background-color: #1d134f;
+.bg-dark {
+   background-color: white!important;
+/*   border-bottom: solid white thin;*/
+ }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #366e7d;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #366e7d;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #366e7d;
 }
 
 .nav-link {
-    color: #fff;   
+    color: #366e7d!important;
+    border-bottom: 2px solid white;
 }
 
-.nav-link:hover { 
-    color: 	#fff;
-    border-bottom: 2px solid #fff;
-}
-
+/*
 .active {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid white;
 }
-
-.carousel-caption {
-    padding-bottom: 12%;
-}
-
-.carousel-caption h3 {
-    font-size: 40px;
-    font-weight: bold;
-}
+*/
 
 /* Ready */
-.ready {
-  background: transparent;
-  position: absolute;
-  top: 300px;
-  left:300px;
-  color: #fff;
-  z-index: 9999;
+.hero-one {
+    background: #366e7d;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    color: #fff;
+    height: 41px;
+    width: 282px;
+    border-top: solid thin;
+/*    border-bottom: solid thin;*/
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.hero-two {
+    background: #366e7d;
+    position: relative;
+    top: 50%;
+    left: 30%;
+    color: #fff;
+    height: 41px;
+    width: 282px;
+    border-bottom: solid thin;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+#hero-statement {
+    color: #366e7d;
 }
 
 /* Ready Button */
 .ready-button {
-  background: #1d134f;
-  position:relative;
-  top: 20px;
-  left: 140px;
-  color: #fff;
-  z-index: 9999;
-  text-align: center;
-    width:100px;
+    background: #366e7d;
+    position: relative;
+    top: 20px;
+    left: 130px;
+    color: #fff;
+    text-align: center;
+    width: 90px;
 }
+
+/* Demo Button */
+.demo-button {
+    margin: auto;
+    color: red;
+/*
+    background: white;
+    color: #366e7d!important;
+    z-index: 9999;
+    text-align: center;
+    width: 140px;
+*/
+}
+
+.btn-primary.custom-btn {
+	background-color: #366e7d;
+	border-color: #fff;
+}
+
+.btn-primary.custom-btn:hover {
+	background-color: #fff;
+	border-color: #366e7d;
+    color: #366e7d;
+}
+
+/* Contact Button */
+/*
+.contact-button {
+    background: #366e7d;
+    color: #fff;
+    z-index: 9999;
+    text-align: center;
+    width: 100px;
+}
+*/
+
 
 /* My Text */
 .my-text {
-  background: #1d134f;
-/*
+    background: #366e7d;
+    /*
   position:absolute;
   top: 320px;
   left:0px;
 */
-  color: #fff;
-  z-index: 9999;
+    color: #fff;
+    z-index: 9999;
 }
 
 /* My Box Text */
 .my-box-text {
-    background: #1d134f;
-    border: solid #fff;
-    border-width: thin;
+    color: #366e7d;
+    background: #fff;
     padding: 10px;
     font-size: 15px;
+    height: auto;
+}
+
+/* Team */
+
+.team {
+    padding: 50px 10px;
+    background: linear-gradient(#21ddfb, #19a4ba);
 }
 
 /* Contact */
 
-.contact {
-  background: #1d134f;
-  padding: 20px 10px;
+#contact {
+    background: #366e7d;
+    padding: 20px 10px;
 }
 
-.contact h2 {
+#contact h2 {
     color: #fff;
 }
 
-/* ---- particles.js container ---- */
 
-#particles-js{
-  width: 100%;
-  height: 400px;
-  background-color: #1d134f;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  border-top: solid white thin;
-  border-bottom: solid white thin;
+/* ---- particles.js container ---- */
+#particles-js {
+    width: 100%;
+    height: 400px;
+    background-color: #366e7d;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-top: solid white thin;
+    border-bottom: solid white thin;
 
 }
 
